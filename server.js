@@ -7,7 +7,12 @@ nerdvision.init('aa899dcebf837cf83f6c0e8bb5f65a3cc20cff73cd51f90c2a14beb7e19ecde
 
 
 app.get('/', (req, res) => {
-  res.send('Hello World!')
+	
+	throw Error('asdasdas');
+
+	res.send('Hello World!')
+
+
 })
 
 app.listen(port, () => {
