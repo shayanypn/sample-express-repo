@@ -1,0 +1,25 @@
+{
+  "name": "sample-express-repo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shayanypn/sample-express-repo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shayanypn/sample-express-repo/issues"
+  },
+  "homepage": "https://github.com/shayanypn/sample-express-repo#readme",
+  "dependencies": {
+    "@nerdvision/agent": "^1.3.2",
+    "express": "^4.17.1"
+  }
+}
