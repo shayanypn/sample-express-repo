@@ -9,7 +9,7 @@ nerdvision.init('aa899dcebf837cf83f6c0e8bb5f65a3cc20cff73cd51f90c2a14beb7e19ecde
 app.get('/sum/:num1/:num2', (req, res) => {
     const { num1, num2 } = req.params;
     const sum = num2 + num1;
-    res.send(`Sum is: ${num2 - num1}`);
+    res.send(`Sum is: ${sum}`);
 });
 
 app.get('/', (req, res) => {
